@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+html,
+body {
+    width: 100%;
+    background-color: gray;
+    font-family: Montserrat, sans-serif;
+    color: silver;
+    overflow: auto;
+}
+
+.container {
+    width: 100%;
+}
+
+.header {
+    text-align: center;
+    color: #99badd;
+    border-bottom: solid #99badd 1px;
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.button-row {
+    height: 45vh;
+    width: 100%;
+    display: flex;
+}
+
+.button {
+    position: relative;
+    flex: 50%;
+    margin: 2%;
+    cursor: pointer;
+    text-align: center;
+}
+
+.button-text {
+    color: white;
+    font-size: 50px;
+    height: 100%;
+    margin: auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+    user-select: none;
+}
+
+/* Centers the text in each button. */
+.inner-text {
+    margin: auto;
+}
+
+#upper-left-button {
+    background-color: #dc3545;
+}
+
+#upper-right-button {
+    background-color: blue;
+}
+
+#lower-left-button {
+    background-color: green;
+}
+
+#lower-right-button {
+    background-color: pink;
+}
+
+#upper-left-button:hover {
+    background-color: purple;
+}
